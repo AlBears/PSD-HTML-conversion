@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+  new WOW().init();
+
+
   $('.js-wp-2').waypoint(function(direction){
     $('.js-wp-2').addClass('animated slideInUp');
   }, {
